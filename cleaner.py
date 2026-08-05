@@ -12,4 +12,7 @@ def clean_gender(gender):
 
 def clean_customer(customer):
     return {
-        "name": clean_name(customer["name"]), "email": clean_email(customer["email"]), "gender": clean_gender(customer["gender"]),}
+        "name": clean_name(customer["name"]),
+        "email": clean_email(customer["email"]),
+        "gender": clean_gender(customer["gender"]),
+    }
